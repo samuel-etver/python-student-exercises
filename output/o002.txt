@@ -1,0 +1,6 @@
+Input: ['Save', 'Vase', 'Stone', 'Act', 'Lemon', 'Cat', 'Eat', 'Notes', 'Tea', 'Ate', 'Melon', 'Bat']
+Output: [['Save', 'Vase'], ['Stone', 'Notes'], ['Act', 'Cat'], ['Lemon', 'Melon'], ['Eat', 'Tea', 'Ate'], ['Bat']]
+---
+Input: ['aabb', 'abab', 'bbaa', 'baab', 'cccc', 'star', 'rats']
+Output: [['aabb', 'abab', 'bbaa', 'baab'], ['cccc'], ['star', 'rats']]
+---

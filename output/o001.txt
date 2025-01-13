@@ -1,0 +1,6 @@
+'Fired' is an anagram of 'Fried': True
+'Listen' is an anagram of 'Silent': True
+'Cafe' is an anagram of 'Face': True
+'Planet' is an anagram of 'Heart': False
+'Parrot' is an anagram of 'Carrot': False
+'aaba' is an anagram of 'bbaa': False
