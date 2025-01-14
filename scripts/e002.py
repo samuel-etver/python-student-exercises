@@ -1,4 +1,4 @@
-# exercise 002
+# exercise 002 (LC49)
 
 
 def group_anagrams(strs):
@@ -12,8 +12,6 @@ def group_anagrams(strs):
 
 
 def create_key(s):
-    s = s.lower()
-    
     counts = [0] * 26
 
     for ch in s:
@@ -30,18 +28,18 @@ def test(strs):
     print('-' * 3)
 
 
-strs = ['Save',
-        'Vase',
-        'Stone',
-        'Act',
-        'Lemon',
-        'Cat',
-        'Eat',
-        'Notes',
-        'Tea',
-        'Ate',
-        'Melon',
-        'Bat']
+strs = ['save',
+        'vase',
+        'stone',
+        'act',
+        'lemon',
+        'cat',
+        'eat',
+        'notes',
+        'tea',
+        'ate',
+        'melon',
+        'bat']
 test(strs)
 
 

@@ -1,12 +1,9 @@
-# exercise 001
+# exercise 001 (LC242)
 
 
-def is_anagram(s, p):
-    if len(s) != len(p):
+def is_anagram(s, t):
+    if len(s) != len(t):
         return False
-
-    s = s.lower()
-    p = p.lower()
     
     counts = [0] * 26
 
@@ -16,7 +13,7 @@ def is_anagram(s, p):
         index = calc_index(ch)
         counts[index] += 1
 
-    for ch in p:
+    for ch in t:
         index = calc_index(ch)
         if counts[index] == 0:
             return False
@@ -25,16 +22,16 @@ def is_anagram(s, p):
     return True
 
 
-def test(s, p):
-    result = is_anagram(s, p)
-    print('\'{0}\' is an anagram of \'{1}\': {2}'.format(s, p, result))
+def test(s, t):
+    result = is_anagram(s, t)
+    print('\'{0}\' is an anagram of \'{1}\': {2}'.format(s, t, result))
 
 
-test('Fired', 'Fried')
-test('Listen', 'Silent')
-test('Cafe', 'Face')
-test('Planet', 'Heart')
-test('Parrot', 'Carrot')
+test('fired', 'fried')
+test('listen', 'silent')
+test('cafe', 'face')
+test('planet', 'heart')
+test('parrot', 'carrot')
 test('aaba', 'bbaa')
 
       

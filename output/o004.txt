@@ -1,0 +1,22 @@
+Input: 'aa'
+Max length of longest substring: 1
+---
+Input: 'ab'
+Max length of longest substring: 2
+---
+Input: 'aba'
+Max length of longest substring: 2
+---
+Input: 'abcda'
+Max length of longest substring: 4
+---
+Input: 'abcabcbb'
+Max length of longest substring: 3
+---
+Input: 'bbbbb'
+Max length of longest substring: 1
+---
+Input: 'pwwkew'
+Max length of longest substring: 3
+---
+

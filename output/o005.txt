@@ -1,0 +1,6 @@
+Index of first occurence 'abc' in 'abcxyzabc': 0
+Index of first occurence 'abc' in 'xyzabcabc': 3
+Index of first occurence 'abc' in 'xyz': -1
+Index of first occurence 'abc' in 'yzabcx': 2
+Index of first occurence 'sadbutsad' in 'sad': -1
+
