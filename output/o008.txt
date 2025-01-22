@@ -1,0 +1,17 @@
+Input: [1, 0, 3]
+The first maximum: 3
+The second maximum: 1
+---
+Input: [1, 5, 3, 4, 2]
+The first maximum: 5
+The second maximum: 4
+---
+Input: [0, 1, 2, 3, 5, 6, 7, 8]
+The first maximum: 8
+The second maximum: 7
+---
+Input: [9, 6, 4, 2, 3, 5, 7, 0, 1]
+The first maximum: 9
+The second maximum: 7
+---
+
