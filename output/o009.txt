@@ -1,0 +1,10 @@
+Input: abc
+The max power of string: 1
+---
+Input: aabcccd
+The max power of string: 3
+---
+Input: abbbcddeeeeff
+The max power of string: 4
+---
+
